@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+    <title>Stock Analyser</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Stock Market Tracker</h1>
+        <main class="inner-div">
+            <div class="input-element">
+                <label class="label-item">Stocks Available </label>
+                <select class="selectEl" onchange="selectOption()">
+                    <option value="">Select stock you bought</option>
+                    <option value="aapl">aapl</option>
+                    <option value="goog">goog</option>
+                    <option value="msft">msft</option>
+                    <option value="tsla">tsla</option>
+                    <option value="twtr">twtr</option>
+                </select>
+                <br><br>
+                <label class="label-item">Purchase Price &nbsp;&nbsp;</label>
+                <input id="cp" type="number" min="1" />
+                <br><br>
+                <label class="label-item">Stock Quantity &nbsp;&nbsp;</label>
+                <input id="quant" type="number" min="1">
+                <br><br>
+                <label class="label-item">Current Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input id="sp" type="number" min="1" />
+                <br><br>
+                <button type="submit" class="btn-check">Check</button>
+                <div id="out-div" class="result"></div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

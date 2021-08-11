@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+:root{
+    --primary-color:#111827;
+    --secondary-color: #D1D5DB;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    background-color: var(--secondary-color);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100vw;
+    min-height: 70vh;   
+    display: grid;
+    place-items: center;
+}
+
+.title{
+    margin-top: 15rem;
+    font-size: 4rem;
+    text-shadow: 0.3rem 0.2rem #ffffff;
+
+}
+
+.inner-div{
+    border: 2px solid var(--primary-color);
+    padding: 0rem 15rem;
+    background-color: var(--primary-color   );
+    border-radius: 2rem;
+    box-shadow: 0rem 1rem 1rem -0.4rem rgba(0,0,0,0.4);
+    color: #ffffff;
+}
+
+.input-element{
+    margin-top: 4rem;
+}
+.label-item{
+    font-size: 2rem;
+    padding: 3rem 2rem;
+    font-weight: bold;
+}
+
+.back{
+    padding: 2rem;
+    width: 8rem;
+    border-radius: 2rem;
+    color:var(--primary-color);
+    margin: 0rem 17rem;
+    background-color:aliceblue;
+    border-color:2px solid var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.btn-check{
+
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    color:var(--primary-color);
+    margin: 1.5rem 17rem;
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-decoration: none;
+   
+    
+}
+
+.selectEl{
+    padding: 0.5rem 0.4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#cp{
+    padding: 0.5rem 1.6rem;
+}
+
+#quant{
+    padding: 0.5rem 1.7rem;
+    margin-left: 0.2rem;
+}
+
+#sp{
+    padding: 0.5rem 1.6rem;
+}
+
+.result {
+    padding: 0rem 2rem;
+    font-size: large;
+    margin-left: 6rem;
+    font-weight:bold ;
+    color: var(--secondary-color);
+}
