@@ -58,7 +58,7 @@ function checkPandL(){
     else{
         let profit = ((SP - CP)*Quant).toFixed(2);
         let profitPercent = (((SP - CP)/CP)*100).toFixed(2);
-        outDiv.innerHTML = `<p>You profit ${profitPercent}. Your total profit is ₹${profit}</p>`
+        outDiv.innerHTML = `<p>You profit ${profitPercent}%. Your total profit is ₹${profit}</p>`
         console.log("profit")
     }
 }
